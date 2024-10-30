@@ -13,13 +13,28 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              cc: 'background: rgb(30, 30, 30);',
+            },
+            fontFamily: {
+              Manrope: 'Manrope',
+           },
+          }
+        }
+      }
+    </script>
     <style>
+      
       .manrope-fonts{
         font-family: "Manrope", sans-serif;
       }
     </style>
 </head>
-<body class="manrope-fonts">
+<body class="font-Manrope">
     <!-- header section -->
      <header class="bg-[#F7F7F7]">
         <!-- navbar section -->
@@ -102,5 +117,43 @@
             </div>
           </section>
      </header>
+
+     <!-- main section -->
+      <main class="bg-[#F4F4F4]">
+        <section class="w-11/12 mx-auto py-8">
+          <div class="flex items-center flex-col lg:flex-row gap-14">
+            <div class="w-full lg:w-1/2 space-y-3">
+              <!-- titile -->
+               <div class="relative	-left-10 -top-3 w-28">
+                <img  class="w-full" src="./assets/Vector.png" alt="">
+               </div>
+              <div class="mb-4 lg:mb-7">
+                <a href="" class="bg-white px-4 py-2 font-semibold rounded-full"><i class="fa-light fa-arrow-right"></i>About Us</a>
+              </div>
+              <!-- title -->
+               <h1 class="text-5xl font-bold">We design thoughtful, liveable spaces</h1>
+               <p class="font-light py-2 lg:py-4">The barn house captivates with its blend of rustic charm and 
+                modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                <div class="bg-white px-6 py-6 rounded-lg flex gap-4">
+                  <img src="./assets/commercial.png" alt="">
+                  <div>
+                    <h3 class="text-1xl font-bold">Commercial</h3>
+                    <p class="font-light text[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                  </div>
+                </div>
+                <div class="bg-white px-6 py-6 rounded-lg flex gap-4">
+                  <img src="./assets/residential.png" alt="">
+                  <div>
+                    <h3 class="text-1xl font-bold">Residential</h3>
+                    <p class="font-light text[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                  </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-1/2">
+              <img src="./assets/Rectangle.png" alt="">
+            </div>
+          </div>
+        </section>
+      </main>
 </body>
 </html>
