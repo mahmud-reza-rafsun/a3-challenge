@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,13 +18,17 @@
         theme: {
           extend: {
             colors: {
-              cc: 'background: rgb(30, 30, 30);',
+              primary: 'background: rgb(30, 30, 30);',
+              secondary: 'rgb(17, 17, 17)',
             },
             fontFamily: {
               Manrope: 'Manrope',
            },
            backgroundImage: {
               bannerBg: "url('./assets/bg.jpg')",
+              bg_images1: "url('./assets/bg_house1.jpg')",
+              bg_images2: "url('./assets/bg_house2.jpg')",
+              bg_images3: "url('./assets/bg_house3.jpg')",
             },
           }
         }
@@ -45,9 +49,9 @@
             <div class="navbar">
                 <div class="navbar-start lg:w-1/2">
                   <div class="flex items-center justify-center gap-2">
-                    <div class="-mt-1 lg:-mt-1"><i class="fa-light bg-[#ABEF5F] font-medium flex items-center justify-center w-7 h-7 lg:w-9 lg:h-9 mx-auto rounded-full fa-arrow-up-right"></i>
+                    <div class="-mt-1 lg:-mt-2"><i class="fa-light bg-[#ABEF5F] font-medium flex items-center justify-center w-7 h-7 lg:w-9 lg:h-9 mx-auto rounded-full fa-arrow-up-right"></i>
                     </div>
-                    <div class="-mt-1">
+                    <div class="-mt-1 lg:-mt-2">
                       <a class="text-2xl lg:text-3xl font-semibold">Rinterio</a>
                     </div>
                   </div>
@@ -106,7 +110,7 @@
                       </ul>
                     </div>
                 </div>
-              </div>
+            </div>
          </nav>
          <!-- banner section -->
           <section class="w-11/12 mx-auto">
@@ -116,7 +120,7 @@
               </div>
               <div class="">
                 <h1 class="text-3xl lg:text-5xl mt-2 lg:mt-4 font-semibold">A barn house of this design has a striking appearance</h1>
-                <p class="font-light my-4 lg:my-7">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <p class="font-light my-4 lg:my-7">design exudes a blend of rustic charm and modern sophistication, creating a striking presence in its surroundings. The structure often features an iconic gambrel or gable roof</p>
                 <div class="flex items-center justify-center">
                   <a href="" class="bg-[#ABEF5F80] flex items-center gap-3 px-4 py-2 font-semibold rounded-full">Book Consult <i class="fa-light bg-[#ABEF5F] text-black w-7 h-7 mx-auto flex items-center justify-center rounded-full fa-arrow-up-right"></i></a>
                 </div>
@@ -143,21 +147,20 @@
               <!-- title -->
                <div class="text-center lg:text-left">
                 <h1 class="text-3xl lg:text-5xl font-bold">We design thoughtful, liveable spaces</h1>
-               <p class="font-light py-2 lg:py-4">The barn house captivates with its blend of rustic charm and 
-                modern sophistication, featuring weathered wood, sleek metal accents.</p>
+               <p class="font-light py-2 lg:py-4">Our design philosophy centers around creating thoughtful, livable spaces that seamlessly blend functionality</p>
                </div>
                 <div class="bg-white px-3 py-3 rounded-lg flex gap-4">
                   <img class="w-16 h-16" src="./assets/commercial.png" alt="">
                   <div>
                     <h3 class="text-1xl font-bold">Commercial</h3>
-                    <p class="font-light text-sm lg:text-base text[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                    <p class="font-light text-sm lg:text-base text[#737373]">Our commercial spaces are designed to foster productivity, creativity.</p>
                   </div>
                 </div>
                 <div class="bg-white px-3 py-3 rounded-lg flex gap-4">
                   <img class="w-16 h-16" src="./assets/residential.png" alt="">
                   <div>
                     <h3 class="text-1xl font-bold">Residential</h3>
-                    <p class="font-light text-sm lg:text-base text[#737373]">The barn house captivates with its blend of rustic charm and modern.</p>
+                    <p class="font-light text-sm lg:text-base text[#737373]">Our residential designs create warm, welcoming homes that reflect the lifestyles.</p>
                   </div>
                 </div>
             </div>
@@ -176,28 +179,28 @@
             </a>
             </div>
             <h1 class="text-3xl lg:text-4xl font-bold">Our Works Process</h1>
-           <p class="py-2 lg:py-4">The barn house captivates with its blend of rustic charm and modern sophistication <br> featuring weathered wood, sleek metal accents.</p>
+           <p class="py-2 lg:py-4">We begin with a personalized consultation to understand your goals, tastes, and requirements.  <br> This initial discussion sets the foundation.</p>
            </div>
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-5">
               <div class="bg-[#E7C1D3] p-5 rounded-lg space-y-2">
                 <img src="./assets/concept.png" alt="">
                 <h3 class="text-lg font-bold">Concept</h3>
-                <p class="">The barn house captivates with its blend of rustic charm and modern.</p>
+                <p class="">Our concept phase is all about capturing the essence of your vision.</p>
               </div>
               <div class="bg-[#EFDA6E] p-5 rounded-lg space-y-2">
                 <img src="./assets/flow-chart.png" alt="">
                 <h3 class="text-lg font-bold">Design Process</h3>
-                <p class="">The barn house captivates with its blend of rustic charm and modern.</p>
+                <p class="">Our design process is a carefully structured journey, transforming.</p>
               </div>
               <div class="bg-[#A4DAC3] p-5 rounded-lg space-y-2">
                 <img src="./assets/vision.png" alt="">
                 <h3 class="text-lg font-bold">Supervision</h3>
-                <p class="">The barn house captivates with its blend of rustic charm and modern.</p>
+                <p class="">Supervision is a vital aspect of our design and construction process</p>
               </div>
               <div class="bg-[#77AAEA] p-5 rounded-lg space-y-2">
                 <img src="./assets/budget-planning.png" alt="">
                 <h3 class="text-lg font-bold">Budget Planning</h3>
-                <p class="">The barn house captivates with its blend of rustic charm and modern.</p>
+                <p class="">Budget planning is a crucial step in our design process, ensuring.</p>
               </div>
           </div>
         </section>
@@ -213,7 +216,7 @@
             </a>
           </div>
           <h1 class="text-3xl lg:text-4xl font-bold">Our Latest Portfolio</h1>
-         <p class="py-2 lg:py-4 mb-5">The barn house captivates with its blend of rustic charm and modern sophistication <br> featuring weathered wood, sleek metal accents.</p>
+         <p class="py-2 lg:py-4 mb-5">Our latest portfolio showcases a diverse collection of projects that exemplify our <br> commitment to innovative design, quality.</p>
          </div>
          <!-- container section -->
          <div class="flex flex-col lg:flex-row gap-3">
@@ -221,9 +224,9 @@
             <img class="w-full lg:w-80" src="./assets/img1.png" alt="">
             <div class="space-y-1">
               <h3 class="text-lg font-bold mt-2">Commercial</h3>
-              <p class="py-3 text-base">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+              <p class="py-3 text-base">From open office layouts that encourage collaboration to intimate retail spaces that captivate and retain.</p>
               <div class="flex">
-                <a href="" class="flex items-center gap-3 px-4 py-2 font-semibold rounded-full">
+                <a href="" class="flex items-center gap-3  font-semibold rounded-full">
                   Book Consult
                   <i class="fa-light bg-[#ABEF5F] text-black w-7 h-7 mx-auto flex items-center justify-center rounded-full fa-arrow-up-right"></i>
                 </a>
@@ -244,9 +247,9 @@
                 <img class="w-full" src="./assets/img4.png" alt="">
                 <div class="space-y-1">
                   <h3 class="text-lg font-bold mt-7">Commercial</h3>
-                  <p class="py-3 text-base">The barn house captivates with its blend of rustic charm and modern. </p>
+                  <p class="py-3 text-base">Durable, high-quality materials and modern, adaptable designs ensure.</p>
                   <div class="flex ">
-                    <a href="" class="flex items-center gap-3 px-4 py-2 font-semibold rounded-full">
+                    <a href="" class="flex items-center gap-3 font-semibold rounded-full">
                       Book Consult
                       <i class="fa-light bg-[#ABEF5F] text-black w-7 h-7 mx-auto flex items-center justify-center rounded-full fa-arrow-up-right"></i>
                     </a>
@@ -259,6 +262,149 @@
               </div>
           </div>
        </section>
+       <!-- Price Section -->
+        <section class="w-11/12 mx-auto py-20">
+          <!-- Price title -->
+          <div class="text-center">
+            <div class="mb-3 lg:mb-6 text-center">
+              <a href="" class="bg-[#ABEF5F33] px-4 py-2 font-semibold rounded-full">
+                <i class="fa-light pr-3 fa-arrow-right"></i>
+                Explore our Latest Project
+              </a>
+            </div>
+            <h1 class="text-3xl lg:text-4xl font-bold">Our Latest Project</h1>
+           <p class="py-2 lg:py-4 mb-5"> latest project is a comprehensive real estate platform designed to streamline property <br> buying, selling, and renting.</p>
+           </div>
+          <div class="carousel w-full py-4 lg:py-10 rounded-lg bg-gradient-to-r from-sky-200 to-indigo-200">
+            <!-- slider-1 -->
+            <div id="slide1" class="carousel-item relative w-full">
+              <div class="w-11/12 lg:w-4/5 mx-auto">
+                <div class="bg-bg_images1 w-full h-full lg:h-96 py-56 bg-no-repeat bg-cover bg-center relative rounded-lg">
+                  <div class="absolute top-0 left-0 w-full bg-secondary/50 h-full flex justify-center items-center rounded-xl">
+                    <div class="z-10 text-white">
+                        <h3 class="lg:text-4xl text-3xl font-semibold text-center">
+                            Resort House
+                        </h3>
+                        <p class="lg:text-lg text-base w-2/3 mx-auto text-center my-3">
+                          A resort house is a beautifully designed retreat set in a scenic location, often near beaches.
+                        </p>
+                        <div class="flex items-center justify-center gap-3 mb-3">
+                          <div class="flex items-center gap-2">
+                            <i class="fa-light text-base lg:text-xl fa-calendar-days"></i>
+                            <p class="lg:text-base text-sm font-medium">June 20, 2024</p>
+                          </div>
+                          <div class="flex items-center gap-2">
+                            <i class="fa-light text-base lg:text-xl fa-user"></i>
+                            <p class="lg:text-base text-sm font-medium">By Owner</p>
+                          </div>
+                        </div>
+                        <div class="flex justify-center mb-4">
+                          <span
+                              class="px-16 lg:px-24 py-2 lg:py-3 rounded-lg text-lg font-semibold bg-gradient-to-r from-red-400 bg-orange-400 text-white">
+                              300,000 $
+                        </sapn>
+                      </div>
+                        <div class="flex justify-center">
+                          <div class="flex items-center justify-center">
+                            <a href="" class="bg-[#ABEF5FA6] flex items-center gap-3 px-4 px-4 lg:px-6 py-1 lg:py-2 font-semibold rounded-full">Buy Consult <i class="fa-light bg-[#ABEF5F] text-black w-7 h-7 mx-auto flex items-center justify-center rounded-full fa-arrow-up-right"></i></a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between invisible lg:visible">
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+              </div>
+            </div>
+            <!-- slider 2 -->
+            <div id="slide2" class="carousel-item relative w-full">
+              <div class="w-11/12 lg:w-4/5 mx-auto">
+                <div class="bg-bg_images2 w-full h-full lg:h-96 py-56 bg-no-repeat bg-cover bg-center relative rounded-lg">
+                  <div class="absolute top-0 left-0 w-full bg-secondary/50 h-full flex justify-center items-center rounded-xl">
+                    <div class="z-10 text-white">
+                        <h3 class="lg:text-4xl text-3xl font-semibold text-center">
+                            Sea Beach
+                        </h3>
+                        <p class="lg:text-lg text-base w-2/3 mx-auto text-center my-3">
+                          Beautifully designed retreat situated right on the coastline, where the soothing sound of waves and the salty sea.
+                        </p>
+                        <div class="flex items-center justify-center gap-3 mb-3">
+                          <div class="flex items-center gap-2">
+                            <i class="fa-light text-base lg:text-xl fa-calendar-days"></i>
+                            <p class="lg:text-base text-sm font-medium">March 10, 2025</p>
+                          </div>
+                          <div class="flex items-center gap-2">
+                            <i class="fa-light text-base lg:text-xl fa-user"></i>
+                            <p class="lg:text-base text-sm font-medium">By Agency</p>
+                          </div>
+                        </div>
+                        <div class="flex justify-center mb-4">
+                          <span
+                              class="px-16 lg:px-24 py-2 lg:py-3 rounded-lg text-lg font-semibold bg-gradient-to-r from-cyan-300 to-blue-400 text-white">
+                              90,000 $
+                        </sapn>
+                      </div>
+                        <div class="flex justify-center">
+                          <div class="flex items-center justify-center">
+                            <a href="" class="bg-[#ABEF5FA6] flex items-center gap-3 px-4 lg:px-6 py-1 lg:py-2 font-semibold rounded-full">Buy Consult <i class="fa-light bg-[#ABEF5F] text-black w-7 h-7 mx-auto flex items-center justify-center rounded-full fa-arrow-up-right"></i></a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between invisible lg:visible">
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+              </div>
+            </div>
+            <!-- slider 3 -->
+            <div id="slide3" class="carousel-item relative w-full">
+              <div class="w-11/12 lg:w-4/5 mx-auto">
+                <div class="bg-bg_images3 w-full h-full lg:h-96 py-56 bg-no-repeat bg-cover bg-center relative rounded-lg">
+                  <div class="absolute top-0 left-0 w-full bg-secondary/50 h-full flex justify-center items-center rounded-xl">
+                    <div class="z-10 text-white">
+                        <h3 class="lg:text-4xl text-3xl font-semibold text-center">
+                            Dupliex House
+                        </h3>
+                        <p class="lg:text-lg text-base w-2/3 mx-auto text-center my-3">
+                          Duplex house is a versatile and stylish living solution that caters to modern lifestyles.
+                        </p>
+                        <div class="flex items-center justify-center gap-3 mb-3">
+                          <div class="flex items-center gap-2">
+                            <i class="fa-light text-base lg:text-xl fa-calendar-days"></i>
+                            <p class="lg:text-base text-sm font-medium">May 25, 2025</p>
+                          </div>
+                          <div class="flex items-center gap-2">
+                            <i class="fa-light text-base lg:text-xl fa-user"></i>
+                            <p class="lg:text-base text-sm font-medium">By Owner</p>
+                          </div>
+                        </div>
+                        <div class="flex justify-center mb-4">
+                          <span
+                              class="px-16 lg:px-24 py-2 lg:py-3 rounded-lg text-lg font-semibold bg-gradient-to-r from-purple-400 to-pink-400 text-white">
+                              200,000 $
+                        </sapn>
+                      </div>
+                        <div class="flex justify-center">
+                          <div class="flex items-center justify-center">
+                            <a href="" class="bg-[#ABEF5FA6] flex items-center gap-3 px-4 lg:px-6 py-1 font-semibold rounded-full">Buy Consult <i class="fa-light bg-[#ABEF5F] text-black w-7 h-7 mx-auto flex items-center justify-center rounded-full fa-arrow-up-right"></i></a>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between invisible lg:visible">
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+              </div>
+            </div>
+            
+          </div>
+        </section>
       <!-- discuss section -->
        <section class="bg-bannerBg">
         <div class="w-11/12 mx-auto py-20">
@@ -271,7 +417,7 @@
             </a>
           </div>
           <h1 class="text-3xl lg:text-4xl font-bold">Let’s Connect</h1>
-         <p class="py-2 lg:py-4 mb-5">The barn house captivates with its blend of rustic charm and modern sophistication <br> featuring weathered wood, sleek metal accents.</p>
+         <p class="py-2 lg:py-4 mb-5"> We believe that great design begins with open communication and collaboration. <br> Whether you’re ready to start a new project</p>
          </div>
          <!-- discuss form -->
           <div class="w-11/12 lg:w-2/3 mx-auto">
@@ -302,7 +448,7 @@
               </div>
             </div>
             <div class="w-full mt-3">
-              <p class="text-[#737373] text-sm lg:text-base">The barn house captivates with its blend of rustic charm and modern sophistication <br> featuring weathered wood, sleek metal accents.</p>
+              <p class="text-[#737373] text-sm lg:text-base">Rinterio is a design and architecture firm dedicated to creating innovative <br> functional, and aesthetically pleasing spaces that.</p>
             </div>
           </nav>
           <nav class="grid grid-flow-row lg:grid-flow-col gap-6 lg:gap-24 py-3 text-white">
